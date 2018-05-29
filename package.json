@@ -1,9 +1,0 @@
-{
-  "name": "typescript-playground",
-  "version": "0.0.0",
-  "license": "MIT",
-  "private": true,  
-  "dependencies": {
-    "@types/knockout": "^3.4.41"
-  }
-}
