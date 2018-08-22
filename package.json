@@ -1,0 +1,23 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunofilipecosta/TypeScript-Playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nunofilipecosta/TypeScript-Playground/issues"
+  },
+  "homepage": "https://github.com/nunofilipecosta/TypeScript-Playground#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  }
+}
