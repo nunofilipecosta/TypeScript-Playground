@@ -1,0 +1,1 @@
+{"version":3,"file":"Employee.js","sourceRoot":"","sources":["../../Models/Employee.ts"],"names":[],"mappings":";;AAEA,MAAa,QAAQ;IAKjB,IAAI,KAAK;QACL,OAAO,IAAI,CAAC,MAAM,CAAC;IACvB,CAAC;IAED,IAAI,KAAK,CAAC,KAAa;QACnB,IAAI,CAAC,MAAM,GAAG,KAAK,CAAC,WAAW,EAAE,CAAC;IACtC,CAAC;CACJ;AAZD,4BAYC"}

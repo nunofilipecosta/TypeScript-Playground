@@ -1,5 +1,8 @@
-/// <reference path="Models/Employee.ts" />
-/// <reference path="Models/IResult.ts" />
+import { IEmployee } from './Models/IEmployee';
+import { Employee } from './Models/Employee';
+import Shelf from './Models/shelf';
+import { IResult, Result } from './Models/IResult';
+
 
 
 
@@ -86,4 +89,33 @@ console.log(Result.jobDescription);
 let employee: IEmployee = new Employee();
 
 
+function CreateCustomerId(name: string, id: number): string {
+    return name + id;
+}
 
+let something = function (lastName: string, count: number): string {
+    return count + lastName;
+}
+
+let anotherFunction: (title: string, ID: number) => string;
+
+anotherFunction = CreateCustomerId;
+let f1 = anotherFunction('Nuno', 1);
+console.log(f1);
+
+anotherFunction = something;
+let f2 = anotherFunction('Costa', 20);
+console.log(f2);
+
+
+let numberShelf: Shelf<number> = new Shelf<number>();
+numberShelf.add(1);
+numberShelf.add(2);
+numberShelf.add(3);
+let firstNumber = numberShelf.getFirst();
+
+let stringShelf: Shelf<number> = new Shelf<number>();
+stringShelf.add(1);
+stringShelf.add(2);
+stringShelf.add(3);
+let firstString = stringShelf.getFirst();

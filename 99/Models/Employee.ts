@@ -1,6 +1,6 @@
-/// <reference path="IEmployee.ts" />
+import { IEmployee } from "./IEmployee"
 
-class Employee implements IEmployee {
+export class Employee implements IEmployee {
     name: string;
     age: number;
 

@@ -1,4 +1,4 @@
-interface IResult {
+export interface IResult {
     playerName: string;
     score: number;
     problemCount: number;
@@ -7,7 +7,7 @@ interface IResult {
     formatName(): string;
 }
 
-class Result implements IResult {
+export class Result implements IResult {
     playerName: string;
     score: number;
     problemCount: number;
