@@ -2,6 +2,7 @@ import { IEmployee } from './Models/IEmployee';
 import { Employee } from './Models/Employee';
 import Shelf from './Models/shelf';
 import { IResult, Result } from './Models/IResult';
+import { UniversityLibrarian } from './Models/sealedClass'
 
 
 
