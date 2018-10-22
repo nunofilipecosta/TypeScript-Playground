@@ -119,3 +119,11 @@ stringShelf.add(1);
 stringShelf.add(2);
 stringShelf.add(3);
 let firstString = stringShelf.getFirst();
+
+let x: string | number;
+x = 'testing';
+if (typeof x === 'string') {
+    console.log('string');
+} else {
+    console.log('number');
+}
