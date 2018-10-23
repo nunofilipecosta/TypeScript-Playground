@@ -14,6 +14,17 @@
                 "isDefault": true,
                 "kind": "build"
             }
+        },
+        {
+            "type": "npm",
+            "script": "lint",
+            "problemMatcher": [
+                "$tsc",
+                {
+                    "base": "$tslint5",
+                    "fileLocation": "relative"
+                }
+            ]
         }
     ]
 }
